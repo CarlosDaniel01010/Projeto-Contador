@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sem serifa;
+    /* box-sizing: border-box; */
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    text-align: center;
+}
+.meio{
+    height: 80vh;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.meio div{
+    margin: 20px;
+    padding: 5px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dias, .horas, .minutos, .segundos{
+    box-shadow: 1px 1px 5px black;
+    background-color: black;
+    border-radius: 10px;
+    height: 20vh;
+    width: 50%;
+    border: transparent;
+    position: relative;
+    flex-direction: column;
+}
